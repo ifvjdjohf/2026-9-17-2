@@ -2939,8 +2939,8 @@
       { id: 2, name: '麥當勞', basePrice: 300 },
       { id: 3, name: '星巴克', basePrice: 500 },
       { id: 4, name: '便利超商', basePrice: 800 },
-      { id: 5, name: '韭菜生鮮', basePrice: 1200 },
-      { id: 6, name: '珍珠奶茶', basePrice: 2000 },
+      { id: 5, name: '八方雲集', basePrice: 1200 },
+      { id: 6, name: '冬瓜茶場', basePrice: 2000 },
       { id: 7, name: '破產地產', basePrice: 3500 },
       { id: 8, name: '負翁快遞', basePrice: 5000 },
       { id: 9, name: '檸檬影業', basePrice: 7000 },
@@ -2951,7 +2951,7 @@
       { id: 13, name: '蘋果 (Apple)', basePrice: 70000 },
       { id: 14, name: '谷歌 (Google)', basePrice: 100000 },
       { id: 15, name: '微軟 (Microsoft)', basePrice: 200000 },
-      { id: 16, name: '索尼', basePrice: 350000 },
+      { id: 16, name: 'Sony', basePrice: 350000 },
       { id: 17, name: '任天堂', basePrice: 500000 },
       { id: 18, name: ' Space-X', basePrice: 800000 },
       { id: 19, name: '輝達 (NVIDIA)', basePrice: 1200000 },
@@ -2960,7 +2960,7 @@
       { id: 21, name: '量子科技', basePrice: 5000000 },
       { id: 22, name: '星際礦業', basePrice: 10000000 },
       { id: 23, name: '深海能源', basePrice: 50000000 },
-      { id: 24, name: '銀河防衛', basePrice: 100000000 },
+      { id: 24, name: '星際旅行', basePrice: 100000000 },
       { id: 25, name: '時光旅遊', basePrice: 500000000 },
       { id: 26, name: '元宇宙地產', basePrice: 1000000000 },
       { id: 27, name: '黑洞研究隊', basePrice: 5000000000 },
@@ -3322,7 +3322,7 @@
       const last = Number(etf.currentPrice) || 10_000_000;
       const trendRoll = Math.random();
       let drift = 0;
-      if (trendRoll < 0.40) {
+      if (trendRoll < 0.46) {
         drift = Math.random() * 800000 + 130000;
       } else if (trendRoll < 0.90) {
         drift = -(Math.random() * 800000 + 130000);
