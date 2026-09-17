@@ -3322,7 +3322,7 @@
       const last = Number(etf.currentPrice) || 10_000_000;
       const trendRoll = Math.random();
       let drift = 0;
-      if (trendRoll < 0.70) {
+      if (trendRoll < 0.48) {
         drift = Math.random() * 800000 + 130000;
       } else if (trendRoll < 0.90) {
         drift = -(Math.random() * 800000 + 130000);
